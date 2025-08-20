@@ -1,0 +1,26 @@
+{
+  "selectors": {
+    "meta[name='keywords']": "Meta keywords tag is ignored by search engines.",
+    "meta[name='copyright']": "Meta copyright tag has no SEO value.",
+    "meta[name='author']": "Meta author is not used for SEO.",
+    "meta[name='generator']": "Meta generator exposes CMS info but has no SEO benefit.",
+    "meta[name^='DC']": "Dublin Core metadata is obsolete for SEO.",
+    "link[rel='shortlink']": "Shortlink is obsolete for SEO purposes.",
+    "link[rel='pingback']": "Pingback is obsolete and specific to old blogging platforms.",
+    "link[rel='edituri']": "EditURI is obsolete (Really Simple Discovery protocol).",
+    "link[rel='alternate stylesheet']": "Alternate stylesheet switching is no longer supported.",
+    "link[rel='archives']": "Archives link relation is obsolete in HTML5.",
+    "link[rel='start']": "Start relation is obsolete in HTML5.",
+    "link[rel='prev']": "Prev relation is obsolete in HTML5 (use rel='previous').",
+    "link[rel='next']": "Next relation is obsolete in HTML5 (use rel='following').",
+    "link[rel='contents']": "Contents relation is obsolete in HTML5.",
+    "link[rel='index']": "Index relation is obsolete in HTML5.",
+    "link[rel='glossary']": "Glossary relation is obsolete in HTML5.",
+    "link[rel='chapter']": "Chapter relation is obsolete in HTML5.",
+    "link[rel='section']": "Section relation is obsolete in HTML5.",
+    "link[rel='subsection']": "Subsection relation is obsolete in HTML5.",
+    "link[rel='appendix']": "Appendix relation is obsolete in HTML5.",
+    "link[rel='help']": "Help relation is obsolete in HTML5.",
+    "link[rel='bookmark']": "Bookmark relation is obsolete in HTML5."
+  }
+}
