@@ -1,0 +1,58 @@
+{
+  "qlik-multi-kpi": {
+    "name": "Multi KPI",
+    "deprecationDate": "2025-04-05",
+    "removalDate": "2026-05-01",
+    "severity": "HIGH",
+    "replacement": "Native KPI chart with layout containers"
+  },
+  "qlik-barplus-chart": {
+    "name": "Bar & Area (old)",
+    "deprecationDate": "2021-05-01",
+    "removalDate": "2026-05-01",
+    "severity": "HIGH",
+    "replacement": "Native combo chart"
+  },
+  "qlik-bullet-chart": {
+    "name": "Bullet Chart (old)",
+    "deprecationDate": "2021-08-01",
+    "removalDate": "2026-05-01",
+    "severity": "HIGH",
+    "replacement": "Native bullet chart"
+  },
+  "heatmap": {
+    "name": "Heatmap",
+    "deprecationDate": "2022-02-01",
+    "removalDate": "2026-05-01",
+    "severity": "MEDIUM",
+    "replacement": "Third-party extensions or custom development"
+  },
+  "sn-action-button": {
+    "name": "Button for Navigation",
+    "deprecationDate": "2024-01-01",
+    "removalDate": "2026-05-01",
+    "severity": "MEDIUM",
+    "replacement": "Native navigation menu"
+  },
+  "share-button": {
+    "name": "Share Button",
+    "deprecationDate": "2024-01-01",
+    "removalDate": "2026-05-01",
+    "severity": "LOW",
+    "replacement": "Native sharing functionality"
+  },
+  "show-hide-container": {
+    "name": "Show/Hide Container",
+    "deprecationDate": "2024-01-01",
+    "removalDate": "2026-05-01",
+    "severity": "MEDIUM",
+    "replacement": "Show condition on native objects"
+  },
+  "tabbed-container": {
+    "name": "Tabbed Container",
+    "deprecationDate": "2024-01-01",
+    "removalDate": "2026-05-01",
+    "severity": "MEDIUM",
+    "replacement": "Layout container with navigation"
+  }
+}
