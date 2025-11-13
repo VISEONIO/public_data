@@ -1,0 +1,82 @@
+class,required,richResult,recommended
+BlogPosting,[],Article,"[author, author.name, author.url, dateModified, datePublished, headline, image]"
+BreadcrumbList,"[itemListElement, itemListElement.position, itemListElement.name, itemListElement.item]",Breadcrumbs,[]
+HowTo,"[name, step, step.text]",How-to,"[supply, tool, totalTime, step.name]"
+Dataset,"[name, description]",Dataset,"[alternateName, creator, citation, funder, hasPart, isPartOf, identifier, isAccessibleForFree, keywords, license, measurementTechnique, sameAs, spatialCoverage, temporalCoverage, variableMeasured, version, url]"
+Occupation,"[estimatedSalary, estimatedSalary.duration, estimatedSalary.name, name, occupationLocation]",Estimated Salary,"[description, estimatedSalary.currency, estimatedSalary.median, estimatedSalary.percentile10, estimatedSalary.percentile25, estimatedSalary.percentile75, estimatedSalary.percentile90, mainEntityOfPage, mainEntityOfPage.lastReviewed]"
+ClaimReview,"[claimReviewed, reviewRating, url]",Fact Check,"[author, itemReviewed]"
+FAQPage,[mainEntity],FAQ,[]
+ImageObject,[contentUrl],Image Metadata,"[acquireLicensePage, creator, creator.name, creditText, copyrightNotice, license]"
+JobPosting,"[datePosted, description, hiringOrganization, jobLocation, title]",Job Posting,"[applicantLocationRequirements, baseSalary, directApply, employmentType, identifier, jobLocationType, validThrough]"
+VideoObject,"[educationalAlignment, educationalLevel, learningResourceType]",Learning Video,"[educationalAlignment.educationalFramework, educationalAlignment.targetName, educationalAlignment.targetUrl, hasPart, text]"
+LocalBusiness,"[address, name]",Local Business,"[aggregateRating, department, geo, geo.latitude, geo.longitude, menu, openingHoursSpecification, openingHoursSpecification.closes, openingHoursSpecification.dayOfWeek, openingHoursSpecification.opens, openingHoursSpecification.validFrom, openingHoursSpecification.validThrough, priceRange, review, servesCuisine, telephone, url]"
+MathSolver,"[potentialAction, potentialAction.mathExpression-input, url, usageInfo, potentialAction.target]",Math Solvers,"[inLanguage, assesses, potentialAction.eduQuestionType]"
+Movie,"[image, name]",Movie carousel,"[aggregateRating, dateCreated, director, review]"
+Organization,[],Organization,"[address, address.addressCountry, address.addressLocality, address.addressRegion, address.postalCode, address.streetAddress, alternateName, contactPoint, contactPoint.email, contactPoint.telephone, description, duns, email, foundingDate, globalLocationNumber, hasMerchantReturnPolicy, hasMemberProgram, iso6523Code, legalName, leiCode, logo, naics, name, numberOfEmployees, sameAs, taxID, telephone, url, vatID]"
+Quiz,"[name, aggregateRating]",Practice Problem,[]
+Offer,[price],Product,"[availability, priceCurrency, priceSpecification.priceCurrency, priceValidUntil]"
+OfferShippingDetails,"[deliveryTime, shippingDestination, shippingRate, shippingRate.currency, shippingRate.value, shippingRate.maxValue]",Merchant listing,
+DefinedRegion,[addressCountry],Merchant listing,[postalCode]
+ShippingDeliveryTime,[],Merchant listing,"[handlingTime, transitTime]"
+QuantitativeValue,"[maxValue, minValue, unitCode]",Merchant listing,
+MerchantReturnPolicy,"[applicableCountry, returnPolicyCategory]",Merchant listing,"[merchantReturnDays, returnFees, returnMethod, returnShippingFeesAmount]"
+ProductGroup,[name],Variants,"[aggregateRating, brand, brand.name, description, hasVariant, productGroupID, review, url, variesBy]"
+MemberProgram,"[description, hasTiers, name]",Loyalty program,[url]
+MemberProgramTier,"[hasTierBenefit, name]",Loyalty program,"[hasTierRequirement, membershipPointsEarned, url]"
+ProfilePage,[mainEntity],Profile page,"[dateCreated, dateModified]"
+Person,[name],Profile page,"[agentInteractionStatistic, alternateName, description, identifier, image, interactionStatistic, sameAs]"
+Question,"[answerCount, acceptedAnswer, name]",Q&A Page,"[author, author.url, comment, dateModified, datePublished, image, text, upvoteCount, video]"
+Answer,[text],Q&A Page,"[author, author.url, comment, dateModified, datePublished, image, upvoteCount, url, video]"
+Comment,[text],Q&A Page,"[author, author.url, comment, dateModified, datePublished, image, video]"
+AggregateRating,"[ratingValue, reviewCount]",Review Snippet,[]
+UnitPriceSpecification,[price],Product,[priceCurrency]
+AggregateOffer,"[lowPrice, priceCurrency]",Product,"[highPrice, offerCount]"
+Product,"[name, image, offers]",Merchant listing,"[aggregateRating, audience, brand.name, color, description, gtin, gtin8, gtin12, gtin13, gtin14, isbn, hasCertification, inProductGroupWithID, isVariantOf, material, mpn, pattern, review, size, sku, subjectOf]"
+3DModel,"[encoding, encoding.contentUrl]",Merchant listing,
+Offer,"[price, priceCurrency, priceSpecification]",Merchant listing,"[availability, hasMerchantReturnPolicy, itemCondition, shippingDetails, url]"
+QuantitativeValue,"[unitCode, value]",Merchant listing,[valueReference]
+SizeSpecification,"[name, sizeGroup, sizeSystem]",Merchant listing,"[name, sizeGroup, sizeSystem]"
+PeopleAudience,,Merchant listing,"[suggestedGender, suggestedMaxAge, suggestedMinAge]"
+Certification,"[issuedBy, name]",Merchant listing,"[certificationIdentification, certificationRating]"
+QAPage,[mainEntity],Q&A Page,[]
+Recipe,"[name, image]",Recipe,"[aggregateRating, author, cookTime, datePublished, description, keywords, nutrition.calories, prepTime, recipeCategory, recipeCuisine, recipeIngredient, recipeInstructions, recipeYield, totalTime, video]"
+WebSite,"[url, potentialAction, potentialAction.query-input, potentialAction.target]",Sitelinks Search Box,[]
+CreativeWork,[isAccessibleForFree],Subscription and paywalled content,[cssSelector]
+Product,"[name, image, description, offers, offers.price, offers.priceCurrency, offers.availability]",Product,"[aggregateRating, offers, review]"
+HowToStep,"[text, itemListElement]",Recipe,"[image, name, url, video]"
+Review,"[itemReviewed, itemReviewed.name, reviewRating, reviewRating.ratingValue, author]",Review Snippet,"[datePublished, reviewRating.bestRating, reviewRating.worstRating]"
+AggregateRating,"[itemReviewed, itemReviewed.name, ratingCount, reviewCount, ratingValue]",Review Snippet,"[bestRating, worstRating]"
+SpecialAnnouncement,"[datePosted, name, text]",Special announcement,"[announcementLocation, announcementLocation.name, announcementLocation.url, diseasePreventionInfo, diseaseSpreadStatistics, expires, gettingTestedInfo, governmentBenefitsInfo, governmentBenefitsInfo.name, governmentBenefitsInfo.url, newsUpdatesAndGuidelines, publicTransportClosuresInfo, quarantineGuidelines, schoolClosuresInfo, spatialCoverage, text, travelBans]"
+CreativeWork,[isAccessibleForFree],Structured data for subscription and paywalled content,"[hasPart.cssSelector, hasPart.@type, hasPart.isAccessibleForFree]"
+VacationRental,"[containsPlace, containsPlace.occupancy, containsPlace.occupancy.value, identifier, image, latitude, longitude, name]",Vacation rental,"[additionalType, address, address.addressCountry, address.addressLocality, address.addressRegion, address.postalCode, address.streetAddress, aggregateRating, brand, checkinTime, checkoutTime, containsPlace.additionalType, containsPlace.amenityFeature, containsPlace.bed, containsPlace.bed.numberOfBeds, containsPlace.bed.typeOfBed, containsPlace.floorSize, containsPlace.numberOfBathroomsTotal, containsPlace.numberOfBedrooms, containsPlace.numberOfRooms, description, knowsLanguage, review, review.contentReferenceTime]"
+Car,"[brand, brand.name, itemCondition, mileageFromOdometer, mileageFromOdometer.unitCode, mileageFromOdometer.value, model, offers, offers.availability, offers.price, offers.priceCurrency, vehicleIdentificationNumber, vehicleModelDate]",Vehicle listing,"[bodyType, color, driveWheelConfiguration, image, name, numberOfDoors, url, vehicleConfiguration, vehicleEngine, vehicleEngine.fuelType, vehicleInteriorColor, vehicleInteriorType, vehicleSeatingCapacity, vehicleTransmission]"
+VideoObject,"[name, thumbnailUrl, uploadDate]",Video,"[contentUrl, description, duration, embedUrl, expires, hasPart, ineligibleRegion, interactionStatistic, publication, regionsAllowed]"
+BroadcastEvent,"[publication, publication.endDate, publication.isLiveBroadcast, publication.startDate]",Video,
+Clip,"[name, startOffset, url]",Video,[endOffset]
+SeekToAction,"[potentialAction, potentialAction.startOffset-input, potentialAction.target]",Video,[]
+Article,[],Article,"[author, author.name, author.url, dateModified, datePublished, headline, image]"
+PodcastEpisode,"[name, description, partOfSeries, partOfSeries.name, partOfSeries.url, url, duration, encodesCreativeWork, encodesCreativeWork.contentUrl]",Podcast,[]
+SoftwareApplication,"[name, offers.price, review]",Software App,"[applicationCategory, operatingSystem]"
+SpeakableSpecification,"[cssSelector, xPath]",Speakable,[]
+Course,"[name, description, provider, provider.name, offers, offers.category, hasCourseInstance]",Course,"[about, aggregateRating, availableLanguage, coursePrerequisites, datePublished, educationalCredentialAwarded, educationalCredentialAwarded.credentialCategory, educationalCredentialAwarded.name, educationalCredentialAwarded.offers.category, educationalCredentialAwarded.offers.price, educationalCredentialAwarded.offers.priceCurrency, educationalCredentialAwarded.url, educationalLevel, financialAidEligible, image, inLanguage, offers.price, offers.priceCurrency, provider.url, publisher, publisher.name, publisher.url, review, syllabusSections, syllabusSections.description, syllabusSections.name, syllabusSections.timeRequired, teaches, totalHistoricalEnrollment, video]"
+CourseInstance,"[courseMode, courseSchedule, courseSchedule.repeatCount, courseSchedule.repeatFrequency, courseWorkload]",Course Info,"[courseSchedule.duration, courseSchedule.endDate, courseSchedule.startDate, image, instructor, instructor.description, instructor.name, location]"
+CourseProgram,"[hasPart, hasPart.name, hasPart.url]",Course Info,[hasPart.description]
+Course,"[description, name]",Course list,[provider]
+ItemList,"[itemListElement, ListItem.position, ListItem.url]",Course list,[]
+Exercise,"[name, about, educationalLevel, hasPart, hasPart.text, hasPart.acceptedAnswer]",Practice Problem,[]
+MobileApplication,"[name, operatingSystem, applicationCategory, offers, offers.price, offers.priceCurrency]",Software App,"[aggregateRating, aggregateRating.ratingValue, aggregateRating.reviewCount, review]"
+ItemList,"[itemListElement, itemListElement.position, itemListElement.url, itemListElement.name]",Carousel,
+NewsArticle,[],Article,"[author, author.name, author.url, dateModified, datePublished, headline, image]"
+Book,"[name, author, url]",Book,"[sameAs, author, bookEdition, datePublished, identifier, name, url, expectsAcceptanceOf.availabilityEnds, expectsAcceptanceOf.availabilityStarts, expectsAcceptanceOf.price, expectsAcceptanceOf.priceCurrency]"
+DataCatalog,,Dataset,[includedInDataCatalog]
+DataDownload,[distribution.contentUrl],Dataset,"[distribution, distribution.encodingFormat]"
+DiscussionForumPosting,"[author, author.name, datePublished, text]",Discussion forum,"[author.url, comment, creativeWorkStatus, dateModified, headline, image, interactionStatistic, isPartOf, sharedContent, text, url, video]"
+Quiz,[hasPart],Education Q&A,"[about, about.name, educationalAlignment, educationalAlignment.alignmentType, educationalAlignment.targetName]"
+Question,"[acceptedAnswer, eduQuestionType, text]",Education Q&A,
+EmployerAggregateRating,"[itemReviewed, ratingCount, ratingValue, reviewCount]",Employer aggregate rating,"[itemReviewed, ratingCount, ratingValue, reviewCount, bestRating, worstRating]"
+Event,"[name, startDate, location, location.address]",Event,"[description, endDate, eventStatus, image, location.name, offers, offers.availability, offers.price, offers.priceCurrency, offers.validFrom, offers.url, organizer, organizer.name, organizer.url, performer, performer.name, previousStartDate]"
+Claim,,Fact check,"[appearance, author, author.name, author.sameAs, datePublished, firstAppearance]"
+Rating,[alternateName],Fact check,"[bestRating, name, ratingValue, worstRating]"
+Question,"[acceptedAnswer, name]",FAQPage,
+Answer,[text],FAQPage,
+Clip,[learningResourceType],Learning video,
