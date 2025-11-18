@@ -1,5 +1,5 @@
 {
-  "Organization": ["name", "url", "test"],
+  "Organization": ["name", "url"],
   "Person": ["name"],
   "Place": ["name", "address"],
   "PostalAddress": ["streetAddress", "addressLocality", "postalCode", "addressCountry"],
@@ -11,4 +11,5 @@
   "ImageObject": ["url", "width", "height"],
   "Article": ["headline", "author", "datePublished"]
 }
+
 
