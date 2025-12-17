@@ -8,8 +8,8 @@
   "CreativeWork": ["name"],
   "WebSite": ["url", "name"],
   "LocalBusiness": ["name", "address", "telephone"],
-  "ImageObject": ["url", "width", "height"],
-  "Article": ["headline", "author", "datePublished"]
+  "ImageObject": ["url", "width", "height"]
 }
+
 
 
