@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebSite",
+      "@type": "WEBSITE-GITHUB",
       "@id": "https://atpconstructionllc.com/#website",
       "url": "https://atpconstructionllc.com",
       "name": "ATP Construction LLC",
