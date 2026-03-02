@@ -1,0 +1,545 @@
+<script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://atpconstructionllc.com/#website",
+      "url": "https://atpconstructionllc.com",
+      "name": "ATP Construction LLC",
+      "description": "Custom home builders and renovation experts in Pueblo, Colorado.",
+      "publisher": { "@id": "https://atpconstructionllc.com/#organization" },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://atpconstructionllc.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "hasPart": [
+        { "@id": "https://atpconstructionllc.com" },
+        { "@id": "https://atpconstructionllc.com/about-us" },
+        { "@id": "https://atpconstructionllc.com/custom-builds" },
+        { "@id": "https://atpconstructionllc.com/extensions" },
+        { "@id": "https://atpconstructionllc.com/kitchen-remodeling" },
+        { "@id": "https://atpconstructionllc.com/bathroom-remodeling" },
+        { "@id": "https://atpconstructionllc.com/home-improvement" },
+        { "@id": "https://atpconstructionllc.com/inspection-services" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://atpconstructionllc.com",
+      "url": "https://atpconstructionllc.com",
+      "name": "ATP Construction LLC | General Contractor in Pueblo, CO",
+      "description": "Custom home builders and renovation experts in Pueblo, Colorado.",
+      "about": { "@id": "https://atpconstructionllc.com/#organization" },
+      "mentions": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#founder" },
+        { "@id": "https://atpconstructionllc.com/#offer-catalog" },
+        { "@id": "https://atpconstructionllc.com/#service-residential" },
+        { "@id": "https://atpconstructionllc.com/#service-commercial" },
+        { "@id": "https://atpconstructionllc.com/#service-renovations" },
+        { "@id": "https://atpconstructionllc.com/#service-custom" },
+        { "@id": "https://atpconstructionllc.com/#service-improvement" },
+        { "@id": "https://atpconstructionllc.com/#service-kitchen" },
+        { "@id": "https://atpconstructionllc.com/#service-bathroom" },
+        { "@id": "https://atpconstructionllc.com/#service-garage" },
+        { "@id": "https://atpconstructionllc.com/#service-excavation" },
+        { "@id": "https://atpconstructionllc.com/#service-inspection" }
+      ],
+      "isPartOf": { "@id": "https://atpconstructionllc.com/#website" }
+    },
+    {
+      "@type": ["LocalBusiness", "HomeAndConstructionBusiness", "GeneralContractor"],
+      "@id": "https://atpconstructionllc.com/#organization",
+      "name": "ATP Construction LLC",
+      "legalName": "ATP Construction LLC",
+      "alternateName": ["ATP Construction, Pueblo, Colorado", "ATP Construction"],
+      "url": "https://atpconstructionllc.com",
+      "logo": { "@id": "https://atpconstructionllc.com/#logo" },
+      "image": { "@id": "https://atpconstructionllc.com/#logo" },
+      "foundingDate": "2013",
+      "founder": { "@id": "https://atpconstructionllc.com/#founder" },
+      "description": "ATP Construction LLC is a full-service licensed general contractor specializing in custom home construction, home additions, garage builds, remodels, excavation services, new construction, and renovations for residential and commercial projects in Pueblo, Colorado. With over 25 years of experience, we build your dreams with precision and care.",
+      "slogan": "Quality Construction You Can Trust",
+      "telephone": "719-248-2553",
+      "email": "john@atpconstructionllc.com",
+      "address": { "@id": "https://atpconstructionllc.com/#address" },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.2544",
+        "longitude": "-104.6091"
+      },
+      "contactPoint": [
+        { "@id": "https://atpconstructionllc.com/#contact-phone" },
+        { "@id": "https://atpconstructionllc.com/#contact-email" }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/ATPconstructionLLC",
+        "https://share.google/KlU5eGHNFyUVAS5vJ",
+        "https://www.yelp.com/biz/atp-construction-pueblo"
+      ],
+      "hasOfferCatalog": { "@id": "https://atpconstructionllc.com/#offer-catalog" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "license",
+          "name": "Licensed General Contractor - Colorado"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "insurance",
+          "name": "Fully Insured Contractor"
+        }
+      ],
+      "knowsAbout": [
+        "Construction",
+        "Home Building",
+        "Renovations",
+        "Remodelling",
+        "Kitchen Remodelling",
+        "Bathroom Remodelling",
+        "Commercial Construction",
+        "Project Management",
+        "Building Codes",
+        "Permits",
+        "Home Improvement Projects",
+        "Excavation Services",
+        "Garage Construction",
+        "Basement Remodeling",
+        "Dirt Work",
+        "Drywall Installation",
+        "Drywall Repair",
+        "Tile Installation",
+        "Bathroom Tile",
+        "Kitchen Tile",
+        "Tiling",
+        "https://en.wikipedia.org/wiki/Construction",
+        "https://en.wikipedia.org/wiki/Home_improvement",
+        "https://en.wikipedia.org/wiki/Drywall",
+        "https://en.wikipedia.org/wiki/Building_code",
+        "https://en.wikipedia.org/wiki/Shower",
+        "https://en.wikipedia.org/wiki/Project_management",
+        "https://en.wikipedia.org/wiki/Planning_permission",
+        "https://en.wikipedia.org/wiki/Earthworks_(engineering)#Excavation",
+        "https://www.wikidata.org/wiki/Q72927615",
+        "https://www.wikidata.org/wiki/Q3875186",
+        "https://www.wikidata.org/wiki/Q2144402",
+        "https://www.wikidata.org/wiki/Q836900",
+        "https://www.wikidata.org/wiki/Q4232202",
+        "https://www.wikidata.org/wiki/Q2789106",
+        "https://www.wikidata.org/wiki/Q468402",
+        "https://www.wikidata.org/wiki/Q2333573",
+        "https://www.wikidata.org/wiki/Q1349587"
+      ],
+      "award": "5-star rating reflects commitment to exceeding client expectations",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Years of Experience",
+          "value": "25+"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Transparent Pricing",
+          "value": "Detailed, transparent estimates with no hidden fees or surprise costs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Client Communication",
+          "value": "Keep clients informed every step of the way from consultation through project completion"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Quality Commitment",
+          "value": "Take pride in every project, treating your home or business as if it were our own"
+        }
+      ],
+      "priceRange": "$-$$$",
+      "paymentAccepted": ["Cash", "Check", "Credit Card", "Bank Transfer"],
+      "currenciesAccepted": "USD",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": 6
+      },
+      "review": [
+        { "@id": "https://atpconstructionllc.com/#review-1" },
+        { "@id": "https://atpconstructionllc.com/#review-2" },
+        { "@id": "https://atpconstructionllc.com/#review-3" },
+        { "@id": "https://atpconstructionllc.com/#review-4" },
+        { "@id": "https://atpconstructionllc.com/#review-5" },
+        { "@id": "https://atpconstructionllc.com/#review-6" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://atpconstructionllc.com/#founder",
+      "name": "John Devencenty",
+      "jobTitle": "Founder and Owner",
+      "email": "john@atpconstructionllc.com",
+      "telephone": "719-248-2553",
+      "description": "John Devencenty established ATP Construction LLC in 2013 with a clear vision: to provide Pueblo County residents with honest, high-quality construction services they can trust. With over 25 years of hands-on experience in the construction industry, John brings deep expertise and a commitment to excellence to every project. John's approach to construction is built on strong relationships with clients, attention to detail, and a dedication to craftsmanship. He personally oversees each project to ensure it meets ATP Construction's high standards and exceeds client expectations.",
+      "knowsAbout": [
+        "Custom Home Building",
+        "Construction Management",
+        "Residential Construction",
+        "Commercial Construction",
+        "Home Remodeling",
+        "Project Management",
+        "Quality Craftsmanship"
+      ],
+      "worksFor": { "@id": "https://atpconstructionllc.com/#organization" },
+      "sameAs": "https://www.facebook.com/john.devencenty/"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://atpconstructionllc.com/#logo",
+      "url": "https://img1.wsimg.com/isteam/ip/d59af559-64f9-4170-b5cd-58fc28d3308d/blob-53836f1.png",
+      "contentUrl": "https://img1.wsimg.com/isteam/ip/d59af559-64f9-4170-b5cd-58fc28d3308d/blob-53836f1.png",
+      "caption": "ATP Construction LLC Logo",
+      "width": "400",
+      "height": "400"
+    },
+    {
+      "@type": "PostalAddress",
+      "@id": "https://atpconstructionllc.com/#address",
+      "streetAddress": "25367 Gale Road",
+      "addressLocality": "Pueblo",
+      "addressRegion": "CO",
+      "postalCode": "81006",
+      "addressCountry": "US"
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://atpconstructionllc.com/#contact-phone",
+      "telephone": "719-248-2553",
+      "contactType": "customer service",
+      "availableLanguage": "English",
+      "areaServed": "US"
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://atpconstructionllc.com/#contact-email",
+      "email": "john@atpconstructionllc.com",
+      "contactType": "customer service",
+      "availableLanguage": "English",
+      "areaServed": "US"
+    },
+    {
+      "@type": "City",
+      "@id": "https://atpconstructionllc.com/#city-pueblo",
+      "name": "Pueblo",
+      "containedInPlace": { "@type": "State", "name": "Colorado" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Pueblo,_Colorado",
+        "https://www.wikidata.org/wiki/Q675576"
+      ]
+    },
+    {
+      "@type": "City",
+      "@id": "https://atpconstructionllc.com/#city-pueblo-west",
+      "name": "Pueblo West",
+      "containedInPlace": { "@type": "State", "name": "Colorado" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Pueblo_West,_Colorado",
+        "https://www.wikidata.org/wiki/Q1822794"
+      ]
+    },
+    {
+      "@type": "City",
+      "@id": "https://atpconstructionllc.com/#city-rye",
+      "name": "Rye",
+      "containedInPlace": { "@type": "State", "name": "Colorado" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Rye,_Colorado",
+        "https://www.wikidata.org/wiki/Q2272311"
+      ]
+    },
+    {
+      "@type": "City",
+      "@id": "https://atpconstructionllc.com/#city-colorado-city",
+      "name": "Colorado City",
+      "containedInPlace": { "@type": "State", "name": "Colorado" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Colorado_City,_Colorado",
+        "https://www.wikidata.org/wiki/Q2084106"
+      ]
+    },
+    {
+      "@type": "GeoCircle",
+      "@id": "https://atpconstructionllc.com/#service-area",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.2544",
+        "longitude": "-104.6091"
+      },
+      "geoRadius": "50 mi",
+      "description": "ATP Construction LLC serves Pueblo, Pueblo West, Colorado City, Rye, and surrounding areas within a 50-mile radius"
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://atpconstructionllc.com/#offer-catalog",
+      "name": "Construction Services",
+      "itemListElement": [
+        { "@id": "https://atpconstructionllc.com/#service-residential" },
+        { "@id": "https://atpconstructionllc.com/#service-commercial" },
+        { "@id": "https://atpconstructionllc.com/#service-renovations" },
+        { "@id": "https://atpconstructionllc.com/#service-custom" },
+        { "@id": "https://atpconstructionllc.com/#service-improvement" },
+        { "@id": "https://atpconstructionllc.com/#service-kitchen" },
+        { "@id": "https://atpconstructionllc.com/#service-bathroom" },
+        { "@id": "https://atpconstructionllc.com/#service-garage" },
+        { "@id": "https://atpconstructionllc.com/#service-excavation" },
+        { "@id": "https://atpconstructionllc.com/#service-inspection" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-residential",
+      "serviceType": "Residential Construction",
+      "name": "Residential Construction",
+      "description": "New home construction and major residential renovations.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Home Construction"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-commercial",
+      "serviceType": "Commercial Construction",
+      "name": "Commercial Construction",
+      "description": "Commercial building construction and renovation projects.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Commercial Building"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-renovations",
+      "serviceType": "Home Renovation",
+      "name": "Home Renovations",
+      "description": "Kitchen, bathroom, basement, and whole-home renovations including additions.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Home Remodeling"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-custom",
+      "serviceType": "Custom Home Building",
+      "name": "Custom Home Construction",
+      "description": "Fully custom home and building construction tailored to your vision, from initial design through final build.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Custom Home Construction"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-improvement",
+      "serviceType": "Home Improvement",
+      "name": "Home Improvement Projects",
+      "description": "Expert assistance with any home improvement project including barns, dirt work, custom shelving, and accessibility installations.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Home Improvement"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-kitchen",
+      "serviceType": "Kitchen Remodeling",
+      "name": "Kitchen Renovations",
+      "description": "Transform your home with ATP Construction's expert kitchen remodelling services. As Pueblo's trusted kitchen renovation contractors, we've helped hundreds of homeowners create their dream kitchens throughout Pueblo County and beyond. Our services include custom cabinet installation, countertop replacement (granite, quartz, marble), kitchen islands, flooring, electrical and plumbing updates, and complete kitchen makeovers.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Kitchen Remodeling"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-bathroom",
+      "serviceType": "Bathroom Remodeling",
+      "name": "Bathroom Renovations",
+      "description": "As Pueblo's trusted bathroom remodelling contractors, we've helped hundreds of homeowners create their dream bathrooms throughout Pueblo County and beyond. Our services include custom vanities, countertops, shower and tub installation, tile work, flooring, electrical and plumbing updates, and complete bathroom makeovers.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Bathroom Remodeling"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-garage",
+      "serviceType": "Garage Construction",
+      "name": "Garage Construction",
+      "description": "Professional garage builds and additions for residential properties.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Garage Building"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-excavation",
+      "serviceType": "Excavation Services",
+      "name": "Excavation Services",
+      "description": "Site preparation, dirt work, and excavation for all construction projects.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Excavation and Site Work"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://atpconstructionllc.com/#service-inspection",
+      "serviceType": "Home Inspection",
+      "name": "Inspection Services",
+      "description": "Comprehensive home inspection services to help you make informed decisions about your property. Our certified inspectors conduct thorough evaluations of residential and commercial properties, identifying potential issues before they become major problems. We also offer specialized asbestos inspection and testing services to ensure your home or building is safe and compliant with environmental regulations.",
+      "provider": { "@id": "https://atpconstructionllc.com/#organization" },
+      "areaServed": [
+        { "@id": "https://atpconstructionllc.com/#city-pueblo" },
+        { "@id": "https://atpconstructionllc.com/#city-pueblo-west" },
+        { "@id": "https://atpconstructionllc.com/#city-rye" },
+        { "@id": "https://atpconstructionllc.com/#city-colorado-city" },
+        { "@id": "https://atpconstructionllc.com/#service-area" }
+      ],
+      "termsOfService": "Free, no-obligation consultation and detailed estimate provided for every project",
+      "category": "Home Inspection"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-1",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Stephanie" },
+      "datePublished": "2025-07-14",
+      "reviewBody": "ATP Construction came to our rescue when a careless driver hit our building in April. John and his crew did amazing work, communicated effectively, and gave me all documentation I needed for my insurance company. They were a breeze to work with, and I recommend them to anyone looking for construction work!",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-2",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Dale" },
+      "datePublished": "2023-04-14",
+      "reviewBody": "John really helped when we were going through the process of building our new house. We are so happy with how everything came out.",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-3",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Sharon" },
+      "datePublished": "2025-02-03",
+      "reviewBody": "I had my entire shower redone and I couldn't love it more. The tile looks amazing and it was super fast. Thanks John!!!",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-4",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Katelin" },
+      "datePublished": "2025-05-14",
+      "reviewBody": "High quality service! I am so happy with how my shower tile came out. John's a pro!!",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-5",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Tonya" },
+      "datePublished": "2025-05-04",
+      "reviewBody": "Love my new house!",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://atpconstructionllc.com/#review-6",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Vince" },
+      "datePublished": "2025-05-18",
+      "reviewBody": "Amazing construction work!",
+      "itemReviewed": { "@id": "https://atpconstructionllc.com/#organization" }
+    }
+  ]
+}
+</script>
